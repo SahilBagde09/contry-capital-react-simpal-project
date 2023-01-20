@@ -1,0 +1,53 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  height: 100vh;
+}
+.main-card {
+  background-color: #f8fafc;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-radius: 20px;
+}
+.main-heading {
+  font-family: Roboto;
+  color: #000000;
+  font-size: 30px;
+}
+.dropdown-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown-select-menu {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-size: 16px;
+}
+.select-text {
+  font-family: Roboto;
+  margin-left: 5px;
+  font-size: 16px;
+}
+.display-capitols {
+  font-family: Roboto;
+
+  font-size: 20px;
+}
